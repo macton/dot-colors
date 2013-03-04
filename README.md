@@ -10,7 +10,7 @@ The bulk of this file is color palettes.  The rest is a few simple utility funct
 For [node](http://nodejs.org) with [npm](http://npmjs.org):
 
 ```bash
-npm install color
+npm install dot-colors
 ```
 
 And use with `var colors = require("dot-colors")`
@@ -47,7 +47,7 @@ Each 'ddd' component is a one byte value specified in decimal.
 The X11 color value or null if the value could not be converted.
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## x11ToCSS
@@ -70,7 +70,7 @@ padded out to 4, then scaled down to fit in a single byte.
 The CSS color value or null if the value could not be converted.
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## hexToRGB
@@ -92,7 +92,7 @@ with null.
 The converted value or values.
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## rgbToHex 
@@ -116,7 +116,7 @@ replaced with null.
 The converted value or values.
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## normalizeCSS
@@ -135,7 +135,7 @@ Take any valid css color definition and turn it into an rgb or rgba value.
 Returns null if the value could not be normalized.
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## arrayToRGBA
@@ -152,7 +152,7 @@ Convert a 3 or 4 element array into an rgba(...) string.
 ### Return Value
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## setAlpha
@@ -169,7 +169,7 @@ Overwrite the alpha channel of an rgb/rgba color.
 ### Return Value
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## mix
@@ -186,7 +186,7 @@ Mix a percentage of a tint color into a base color.
 ### Return Value
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## crackRGB
@@ -206,7 +206,7 @@ will be set to 1.
 ### Return Value
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## nameToRGB
@@ -231,7 +231,7 @@ rgb.txt file.
 The corresponding CSS rgb(...) value.
 
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
 
 ## stockColorPalette
@@ -253,5 +253,5 @@ Array of 256 colors, in this order:
 * The 6x6 color cubes
 * The greyscale ramp
 
-<sub><sup>([Return to API](#api)</sup></sub>
+<sub><sup>([Return to API)](#api)</sup></sub>
 
