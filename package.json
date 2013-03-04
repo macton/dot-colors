@@ -2,7 +2,7 @@
   "name": "dot-colors",
   "version": "0.1.0",
   "description": "Color conversion utilities",
-  "main": "./lib/lib_color.js",
+  "main": "./lib/lib_colors.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
