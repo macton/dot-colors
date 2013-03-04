@@ -6,6 +6,11 @@ Port to Node.js: Mike Acton <macton@gmail.com>
 
 The bulk of this file is color palettes.  The rest is a few simple utility functions
 
+- [Install][#install]
+- [Questions?][#questions]
+- [Contribute?][#contribute]
+- [API][#api]
+
 ## Install
 
 ### node
