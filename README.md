@@ -1,5 +1,7 @@
 # dot-colors
+
 Author: Robert Ginda <rginda@google.com>
+
 Port to Node.js: Mike Acton <macton@gmail.com>
 
 The bulk of this file is color palettes.  The rest is a few simple utility functions
@@ -14,6 +16,20 @@ npm install dot-colors
 ```
 
 And use with `var colors = require("dot-colors")`
+
+## Questions?
+
+If you have questions, the best place to ask is the [chromium-hterm google group](https://groups.google.com/a/chromium.org/forum/?fromgroups=#!forum/chromium-hterm)
+
+## Contribute?
+
+If you want to contribute to the upstream, the best place to ask is the [chromium-hterm google group](https://groups.google.com/a/chromium.org/forum/?fromgroups=#!forum/chromium-hterm)
+
+If you would like to contribute to this port, I have some things in mind:
+* Merge in some of the functionality of [colors](https://github.com/harthur/color)
+* Figure out a (good) way to automate the generation of this readme file.
+* Make some tests.
+* Add examples to this readme in the API section.
 
 
 ## API
